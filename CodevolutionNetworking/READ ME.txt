@@ -1,0 +1,6 @@
+
+Networking : https://www.youtube.com/watch?v=V17bowbR2xs&list=PLC3y8-rFHvwhiQJD1di4eRVN30WWCXkg1&index=66
+    - Fetching and submitting data to an API
+    - Loading states
+    - Error handling
+    - FlatList component to display our data
