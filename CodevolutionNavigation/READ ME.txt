@@ -1,0 +1,29 @@
+reference : https://www.youtube.com/watch?v=tAd45ysbvKQ&list=PLC3y8-rFHvwhiQJD1di4eRVN30WWCXkg1&index=72
+
+React Navigation
+    - provides a variety pf navigators like Stack, Drawer and Tab navigators
+    - provides a way for your app to transition between screens where each new screen is placed on top of a stack
+    - drawer navigation renders a navigation drawer on the side of the screen which can be opened and closed via gestures
+    - tab navigation at the bottom of screen lets you easily switch between different routes
+
+    npm install @react-navigation/native @react-navigation/native-stack
+
+Stack Navigation
+    - each new screen is stacked on top of previous one like a deck of cards
+    - when you navigate to a new screen, a new card is placed on top of the stack and
+      when you navigate back, the top card is removed, revealing the previous screen
+    - allows users to drill down into detailed views and the retrace their steps when done
+    - particularly useful in scenarios where a linear flow of screens is required
+    - list view to details view to more details view
+
+    Stack Navigators
+        - javascript-based navigator which offers a high degree of customization,
+          greate choice for app that require unique navigation experience
+        - comes at the cost of performance when compared to its counterpart, Native Stack Navigator
+    Native Stack Navigators
+        - leberages the native navigation constructs of iOS and Android, providing better performance
+          and a more native feel to the transitions and gestures
+        - caveat, might not offer the same level of customization as the Stack Navigator
+
+
+        tbc : https://www.youtube.com/watch?v=6sSb3hDKtK4&list=PLC3y8-rFHvwhiQJD1di4eRVN30WWCXkg1&index=76
