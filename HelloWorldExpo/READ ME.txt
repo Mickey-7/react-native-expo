@@ -1,0 +1,129 @@
+reference: https://www.youtube.com/watch?v=B98mC0Hm7Ds
+
+to create expo:
+    npx create-expo-app@latest ProjectName
+
+to run:
+    npm start
+
+-------------------------------------------------------------------------
+running on device
+
+install expo go on device from play store
+    make sure connected to same network
+    then scan the QR
+
+PS D:\react-native-expo\HelloWorld> npm start
+
+> helloworld@1.0.0 start
+> expo start
+
+Starting project at D:\react-native-expo\HelloWorld
+› Port 8081 is being used by another process
+√ Use port 8082 instead? ... yes
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ ███ ▄▄▄▄▄ █
+█ █   █ █   █▀ █▄██ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀▀▄▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █ █▄█▄▄▄▄▄▄▄█
+█▄ ▄▄█▀▄▀▄█ ▄ ▀▀██▄██▄ ▄▀▄█
+████▄▀▀▄▄▄  ▄▄▀ █▄█ ▀██▀███
+██▄▄▀█▄▄ ▀ ▄▀  █ ▄█ ▄ █ █▀█
+█▀▄█  █▄███▄ ████ ▀▀█▀▀█ ▀█
+███▄▄█▄▄█   ██▄ ▄ ▄▄▄ ▀▄█▀█
+█ ▄▄▄▄▄ ██▀ █▄█▀█ █▄█ █▄▄▄█
+█ █   █ █▀█▄▀ █▀▀▄▄   █▀▀ █
+█ █▄▄▄█ █ ▄█▄█▀▄▀▄▀▄█▄▄ ▄██
+█▄▄▄▄▄▄▄█▄▄█▄█▄█▄██████▄▄▄█
+
+› Metro waiting on exp://192.168.50.249:8082
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundled 11902ms (D:\react-native-expo\HelloWorld\node_modules\expo\AppEntry.js)
+Android Bundled 1867ms (D:\react-native-expo\HelloWorld\node_modules\expo\AppEntry.js)
+Android Bundled 45ms (D:\react-native-expo\HelloWorld\node_modules\expo\AppEntry.js)
+
+-------------------------------------------------------------------------
+reference:https://www.youtube.com/watch?v=xKGESzemfdw
+
+running on Android Studio
+
+open Android Studio
+    click the 3 dots icon beside Get from VCS
+    select Virtual Device Manager
+    click Create Device
+    select Pixel 4 then Next
+    select API 34 then click download icon
+    click I Accpet then Next
+    click Finish then Next
+    click Finish then Run icon
+
+on terminal of the project
+    npm start
+
+    then press a
+
+PS D:\react-native-expo\HelloWorld> npm start
+
+> helloworld@1.0.0 start
+> expo start
+
+Starting project at D:\react-native-expo\HelloWorld
+› Port 8081 is being used by another process
+√ Use port 8082 instead? ... yes
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ ███ ▄▄▄▄▄ █
+█ █   █ █   █▀ █▄██ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀▀▄▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █ █▄█▄▄▄▄▄▄▄█
+█▄ ▄▄█▀▄▀▄█ ▄ ▀▀██▄██▄ ▄▀▄█
+████▄▀▀▄▄▄  ▄▄▀ █▄█ ▀██▀███
+██▄▄▀█▄▄ ▀ ▄▀  █ ▄█ ▄ █ █▀█
+█▀▄█  █▄███▄ ████ ▀▀█▀▀█ ▀█
+███▄▄█▄▄█   ██▄ ▄ ▄▄▄ ▀▄█▀█
+█ ▄▄▄▄▄ ██▀ █▄█▀█ █▄█ █▄▄▄█
+█ █   █ █▀█▄▀ █▀▀▄▄   █▀▀ █
+█ █▄▄▄█ █ ▄█▄█▀▄▀▄▀▄█▄▄ ▄██
+█▄▄▄▄▄▄▄█▄▄█▄█▄█▄██████▄▄▄█
+
+› Metro waiting on exp://192.168.50.249:8082
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Opening on Android...
+› Opening exp://192.168.50.249:8082 on Pixel_4_API_34
+Downloading the Expo Go app [==============================================================] 100% 0.0s
+
+
+› Press ? │ show all commands
+Android Bundled 4929ms (D:\react-native-expo\HelloWorld\node_modules\expo\AppEntry.js)
+Android Bundled 67ms (D:\react-native-expo\HelloWorld\node_modules\expo\AppEntry.js)
